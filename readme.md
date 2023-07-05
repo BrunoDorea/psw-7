@@ -38,3 +38,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 - `python manage.py runserver` -> Iniciar o servidor
 - `python manage.py makemigrations` ->
 - `python manage.py migrate` ->
+- `python manage.py startapp {NOME_DO_APP}` -> Criar novo app
+- 
