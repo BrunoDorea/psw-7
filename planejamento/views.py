@@ -1,8 +1,9 @@
 from django.views.decorators.csrf import csrf_exempt
 from django.http import JsonResponse
 from django.shortcuts import render
-from perfil.models import Categoria
 import json
+
+from perfil.models import Categoria
 
 def definir_planejamento(request):
     categorias = Categoria.objects.all()

@@ -1,9 +1,10 @@
 from django.shortcuts import render, redirect
 from django.contrib.messages import constants
-from .models import ContaPagar, ContaPaga
 from django.contrib import messages
-from perfil.models import Categoria
 from datetime import datetime
+
+from .models import ContaPagar, ContaPaga
+from perfil.models import Categoria
 
 def definir_contas(request):
     if request.method == "GET":

@@ -1,4 +1,5 @@
 from django.db import models
+
 from perfil.models import Categoria
 
 class ContaPagar(models.Model):
