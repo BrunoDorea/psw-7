@@ -1,4 +1,4 @@
-name: finan_ce
+name: psw-finan_ce
 env: python-3.11
 build:
   steps:
